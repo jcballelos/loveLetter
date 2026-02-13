@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine 💜</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro">3... 2... 1... 💜</div>
+
+    <audio id="music" loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3">
+    </audio>
+
+    <canvas id="fireworks"></canvas>
+
+    <div class="container">
+        <img src="1.jpeg" class="photo" alt="Our photo">
+        
+        <h1>Will you be my Valentine, Ayezza? 💜</h1>
+        <div class="ring">💍</div>
+
+        <div class="button-container">
+            <button class="yes" onclick="sayYes()">
+                <span class="btn-text">Yes 💖</span>
+                <span class="btn-glow"></span>
+            </button>
+            <button class="no" id="noBtn">
+                <span class="btn-text">No 😢</span>
+                <span class="btn-glow"></span>
+            </button>
+        </div>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
